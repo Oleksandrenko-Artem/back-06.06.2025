@@ -1,3 +1,3 @@
-const { createLogFileWithDate } = require("./functions");
+const { mergeFiles } = require("./functions");
 
-createLogFileWithDate('logs');
+mergeFiles('content', 'test01.txt', 'test02.txt', 'test03.txt');
